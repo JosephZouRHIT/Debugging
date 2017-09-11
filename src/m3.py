@@ -41,6 +41,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 
 def main():
     """ Calls the   TEST   functions in this module. """
+    test_broken_1()
 
 
 ########################################################################
@@ -125,7 +126,6 @@ def broken_1(m):
         if is_prime(k + m):
             count = count + 1
     return count
-
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
